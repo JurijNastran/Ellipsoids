@@ -1,1 +1,6 @@
 # Ellipsoids
+
+This repository contains demonstrations of methods implemented in my thesis "Robustness assessment of the biological processor using hyperellipsoids".
+
+As part of this thesis, we present extentions of the current methods for the analysis of the robustness of synthetic biological systems. We demonstrate the new methods on a proposed programmable biological processor. The robustness is calculated using the volume of the body of viable parameters in high dimensional space. This volume is estimated using a genetic algorithm, principal component analysis and lastly Monte Carlo method. We demonstrate the importance the minimum enclosing body has on the efficiency of our method. Thus we focus our attention on improving the fitting of the enclosing body around the viable points. Instead of hypercuboids we demonstrate the advantages of the usage of hyperellipsoids as a viable alternative. For this purpose, a method for random uniform sampling inside of hyperellipsoid is implemented. Two competing methods of finding the minimum volume enclosing ellipsoids are also compared. We demonstrate the usefulness of the hyperellipsoid methods over the hypercuboid approach using the data provided by the biological processor model. In some cases, the ellipsoid approach is shown to reduce the number of required samplings by almost a magnitude.
+
